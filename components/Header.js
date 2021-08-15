@@ -14,10 +14,11 @@ const Header = () => {
                     width={40}
                     height={40}
                     layout="fixed"
+                    alt="fb"
                 />
                 <div className="flex ml-2 items-center rounded-full bg-gray-100 p-2">
                     <SearchIcon className="h-6 text-gray-600" />
-                    <input className="flex ml-2 items-center bg-transparent outline-none placeholder-gray-500 flex-shrink" type="text" placeholder="Search Facebook" />
+                    <input className="hidden md:inline-flex ml-2 items-center bg-transparent outline-none placeholder-gray-500 flex-shrink" type="text" placeholder="Search Facebook" />
                 </div>
             </div>
             <div className="flex justify-center flex-grow">
@@ -28,6 +29,13 @@ const Header = () => {
                     <HeaderIcon Icon={ShoppingCartIcon} />
                     <HeaderIcon Icon={UserGroupIcon} />
                 </div>
+            </div>
+            <div className="flex items-center sm:space-x-2 justify-end">
+                <p className="whitespace-nowrap font-semibold pr-3">Dhwaj Sharma</p>
+                <ViewGridIcon className="hidden xl:inline-flex p-2 h-10 w-10 bg-gray-200 rounded-full text-gray-700 cursor-pointer hover:bg-gray0-300" />
+                <ChatIcon className="hidden xl:inline-flex p-2 h-10 w-10 bg-gray-200 rounded-full text-gray-700 cursor-pointer hover:bg-gray0-300" />
+                <BellIcon className="hidden xl:inline-flex p-2 h-10 w-10 bg-gray-200 rounded-full text-gray-700 cursor-pointer hover:bg-gray0-300" />
+                <ChevronDownIcon className="hidden xl:inline-flex p-2 h-10 w-10 bg-gray-200 rounded-full text-gray-700 cursor-pointer hover:bg-gray0-300" />
             </div>
         </div>
     )
