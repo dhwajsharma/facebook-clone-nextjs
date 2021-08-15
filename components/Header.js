@@ -32,10 +32,10 @@ const Header = () => {
             </div>
             <div className="flex items-center sm:space-x-2 justify-end">
                 <p className="whitespace-nowrap font-semibold pr-3">Dhwaj Sharma</p>
-                <ViewGridIcon className="hidden xl:inline-flex p-2 h-10 w-10 bg-gray-200 rounded-full text-gray-700 cursor-pointer hover:bg-gray0-300" />
-                <ChatIcon className="hidden xl:inline-flex p-2 h-10 w-10 bg-gray-200 rounded-full text-gray-700 cursor-pointer hover:bg-gray0-300" />
-                <BellIcon className="hidden xl:inline-flex p-2 h-10 w-10 bg-gray-200 rounded-full text-gray-700 cursor-pointer hover:bg-gray0-300" />
-                <ChevronDownIcon className="hidden xl:inline-flex p-2 h-10 w-10 bg-gray-200 rounded-full text-gray-700 cursor-pointer hover:bg-gray0-300" />
+                <ViewGridIcon className="icon" />
+                <ChatIcon className="icon" />
+                <BellIcon className="icon" />
+                <ChevronDownIcon className="icon" />
             </div>
         </div>
     )
