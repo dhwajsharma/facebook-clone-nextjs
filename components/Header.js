@@ -43,7 +43,7 @@ const Header = () => {
                     layout="fixed"
                     alt="user img"
                 />
-                <p className="whitespace-nowrap font-semibold pr-3">Dhwaj Sharma</p>
+                <p className="whitespace-nowrap font-semibold pr-3">{session.user.name}</p>
                 <ViewGridIcon className="icon" />
                 <ChatIcon className="icon" />
                 <BellIcon className="icon" />
