@@ -1,14 +1,14 @@
-const SidebarRow = ({ src, Icon, title }) => {
+import Image from "next/image";
+function SidebarRow({src, Icon, title}) {
     return (
         <div className="flex items-center space-x-2 p-4 hover:bg-gray-200 rounded-xl cursor-pointer">
             {src && (
-                <img
+                <Image 
                     className="rounded-full"
                     src={src}
                     width={30}
                     height={30}
                     layout="fixed"
-                    alt="user photo"
                 />
             )}
             {Icon && (
@@ -19,4 +19,4 @@ const SidebarRow = ({ src, Icon, title }) => {
     )
 }
 
-export default SidebarRow
+export default SidebarRow;
